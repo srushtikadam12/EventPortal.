@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.api import login
+from api import login
 
 st.set_page_config(
     page_title="Login",
