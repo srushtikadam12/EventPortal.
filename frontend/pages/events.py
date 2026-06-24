@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.api import get_events, book_event
+from api import get_events, book_event
 
 st.set_page_config(
     page_title="Events",
