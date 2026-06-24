@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.api import signup
+from api import signup
 
 st.set_page_config(
     page_title="Signup",
