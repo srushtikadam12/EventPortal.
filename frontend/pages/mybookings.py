@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from utils.api import get_my_bookings
+from api import get_my_bookings
 
 st.set_page_config(
     page_title="My Bookings",
